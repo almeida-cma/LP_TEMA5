@@ -1,0 +1,46 @@
+EXEMPLO: loop `while` 
+
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+
+------------------------
+
+EXEMPLO: loop for in:
+
+// Objeto com algumas propriedades
+const pessoa = {
+  nome: 'João',
+  idade: 30,
+  cidade: 'São Paulo'
+};
+
+// Usando for...in para iterar sobre as propriedades do objeto
+for (let chave in pessoa) {
+  console.log(`${chave}: ${pessoa[chave]}`);
+}
+
+-----------------------------
+
+EXEMPLO: operador ternário:
+
+// Definindo uma variável
+let idade = 18;
+
+// Usando o operador ternário para verificar se a idade é suficiente para votar
+let podeVotar = (idade >= 18) ? 'Sim, pode votar' : 'Não, ainda não pode votar';
+
+console.log(podeVotar);
+
+------------------------------
+EXEMPLO:  loop do...while
+
+let numero = 1;
+
+do {
+  console.log(`Número atual é: ${numero}`);
+  numero++;
+} while (numero <= 5);
